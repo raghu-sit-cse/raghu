@@ -1,0 +1,82 @@
+
+to run program, right click np3 folder , open with terminal and type:
+sh las.sh
+
+
+--------------------------------------------------
+
+for client-server program
+start the server using
+./s
+
+to run client open another terminal by pressing + and type
+./c
+
+---------------------------------------------------
+
+
+for multicasting, create client group,
+./c
+./c
+./c
+
+at last run the server
+./s
+
+
+----------------------------------------------
+
+
+wrt  External Exam Question Bank
+
+Part A  
+
+
+No      name       
+
+1.      lsa.sh
+        lsa2.c     
+
+2.      crc.sh
+        crc2.c     
+
+3.      frame.sh    
+        frame7.c   - frame len  ; text string as input
+        
+
+4.      tcp.sh
+        tcpc3.c
+        tcps3.c
+        
+        tcp_sim.sh - simplified tcp/ip program
+       
+
+5.      fifo.sh
+        fifoc10.c
+        fifos10.c
+        
+
+6.      udp.sh
+        udpc8.c
+        udps8.c
+        
+
+7.      mcast.sh
+        mcast_c.c
+        mcast_s.c
+       
+
+8.      slide.sh 
+        slide_server.c 
+        slide_client.c
+       
+
+------------------------------------------------------------------------------------
+
+
+Adding multicast group error: No such device
+error comes when the msg when internet is not connected - it needs router it
+seems
+connect to internet and check
+route add -net 226.1.1.1 netmask 226.0.0.0 dev eth0
+route add -net 224.0.0.0 netmask 224.0.0.0 dev eth0

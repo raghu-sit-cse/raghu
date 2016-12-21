@@ -1,0 +1,52 @@
+
+
+%sub NP Lab
+%sem 7
+
+C - Lsa2.c  +  ns2 -lab1.tcl
+   Tcp.sh   + lab2.tcl
+    Mcast.sh + lab3.tcl
+
+  Udp.sh  + lab4.tcl
+  
+  
+
+  Fifo10.sh + lab5.tcl
+
+
+
+ 
+ Internal - 1
+
+
+
+
+des + lab6.tcl
+
+crc + lab7.tcl
+
+Sliding window + lab8.tcl
+
+
+ Internal - 2
+
+
+
+%00
+%date
+
+
+10-15 Aug
+17-22
+24-29
+31 - 5 sept
+7-12
+14-19
+
+28-3 oct
+5-10
+12-17
+
+11-7 nov
+
+
